@@ -1,0 +1,18 @@
+{
+    "name": "dmitriy/todo-list",
+    "autoload": {
+        "psr-4": {
+            "Dmitriy\\TodoList\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Дмитрий Александров",
+            "email": "aleksandrovdmitriy812@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^8.83",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}

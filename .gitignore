@@ -1,0 +1,6 @@
+vendor
+.env
+
+# IDEs
+.idea
+.vscode
