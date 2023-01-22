@@ -1,9 +1,9 @@
 {
     "name": "dmitriy/todo-list",
     "autoload": {
-        "psr-4": {
-            "Dmitriy\\TodoList\\": "src/"
-        }
+        "classmap": [
+            "classes"
+        ]
     },
     "authors": [
         {
@@ -13,6 +13,7 @@
     ],
     "require": {
         "illuminate/database": "^8.83",
-        "vlucas/phpdotenv": "^5.5"
+        "vlucas/phpdotenv": "^5.5",
+        "pecee/simple-router": "4.3.7.2"
     }
 }
